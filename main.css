@@ -5,6 +5,11 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .header {
     display: flex;
     position: fixed;
@@ -18,10 +23,6 @@ body {
 .header .logo {
     width:173px;
     margin:11px;
-}
-
-.header .nav {
-    color: #fff;
 }
 
 .header ul {
@@ -85,11 +86,12 @@ ul > li:last-child::after {
     border: none;
 }
 
-.icon-search {
-    right: 30px;
-}
-
 .icon {
     position: absolute;
     top: 5px;
 }
+
+.icon-search {
+    right: 30px;
+}
+
