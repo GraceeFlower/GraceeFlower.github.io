@@ -6,8 +6,8 @@ body {
 }
 
 .header {
-    position: fixed;
     display: flex;
+    position: fixed;
     margin: 10px 0;
     width: 95%;
     height: 120px;
@@ -44,7 +44,26 @@ body {
 
 .header li {
     display: inline-block;
-    margin: 0 5px;
+    position: relative;
+    margin: 0 8px;
+}
+
+.up-nav li::after {
+    content: "";
+    position: absolute;
+    height: 42px;
+    border: 1px solid #434343;
+    top: -8px;
+    right: -12px;
+}
+
+.down-nav li::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    border: 1px solid #6a6a6a;
+    top: -2px;
+    right: -12px;
 }
 
 .search {
