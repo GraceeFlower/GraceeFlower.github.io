@@ -15,18 +15,11 @@ a {
     position: fixed;
     padding: 10px 0;
     top: 0;
-    /* height: 110px; */
+    height: 110px;
     width: 95%;
     justify-content: space-around;
     background: url('./images/starfield-banner.jpg ');
 }
-
-/* .header::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-} */
 
 .header .logo {
     width: 173px;
@@ -118,7 +111,7 @@ ul > li:last-child::after {
 }  
 
 .main-event {
-    /* margin-right: 10px; */
+    margin-right: 10px;
     flex: 1 1;
     width: 50%;
     height: 640px;
@@ -129,20 +122,31 @@ ul > li:last-child::after {
 .sub-event {
     display: flex;
     flex: 1 1;
+    flex-wrap: wrap;
 }
 
 .climate {
-    flex: 1 1;
-    height: 300px;
-    width: 50%;
+    margin-right: 10px;
+    flex: 1 1 2;
+    width: calc(50% - 10px);
+    height: 50%;
     background-image: url(./images/mollweide_cycle.jpg);
 }
 
 .news {
-    flex: 1 1;
+    flex: 1 1 2;
     width: 50%;
-    height: 300px;
+    height: 50%;
     background-color: #4d7197;
+}
+
+.launch {
+    margin-top: 10px;
+    flex: 1 1 2;
+    width: 100%;
+    height: calc(50% - 10px);
+    background-image: url(./images/s69-39961.jpg);
+    background-size: cover;
 }
 
 
