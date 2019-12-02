@@ -57,6 +57,11 @@ body {
     right: -12px;
 }
 
+ul > li:last-child::after {
+    contain: "";
+    border: none;
+}
+
 .down-nav li::after {
     content: "";
     position: absolute;
