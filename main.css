@@ -6,11 +6,13 @@ body {
 }
 
 .header {
-    background: url('./images/starfield-banner.jpg ');
     position: fixed;
+    display: flex;
+    margin: 10px 0;
     width: 95%;
     height: 120px;
-    /* line-height: 120px; */
+    justify-content: space-around;
+    background: url('./images/starfield-banner.jpg ');
 }
 
 .header .logo {
@@ -24,32 +26,31 @@ body {
 
 .header ul {
     list-style: none;
-    text-align: right;
+    padding: 10px;
 }
 
 .up-nav {
+    margin-top: 0;
     font-size: 19px;
+    text-align: right;
 }
 
 .down-nav {
+    margin-bottom: 0;
     font-size: 13px;
+    text-align: center;
     background-color: #555555;
 }
 
 .header li {
     display: inline-block;
-    margin-left: 10px;
+    margin: 0 5px;
 }
-
-/* .header .logo-link {
-    padding: 10px;
-} */
 
 .search {
     position: relative;
     width:173px;
     margin:11px;
-    /* height: 100%; */
 }
 
 .search > input {
