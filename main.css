@@ -14,10 +14,19 @@ a {
     display: flex;
     position: fixed;
     padding: 10px 0;
+    top: 0;
+    /* height: 110px; */
     width: 95%;
     justify-content: space-around;
     background: url('./images/starfield-banner.jpg ');
 }
+
+/* .header::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+} */
 
 .header .logo {
     width: 173px;
@@ -99,7 +108,44 @@ ul > li:last-child::after {
 }
 
 .content {
-    height: 578px;
-    background: #fff;
+    margin-top: 110px;
 }
+
+.content .events {
+    display: flex;
+    height: 640px;
+    background: #fff;
+}  
+
+.main-event {
+    /* margin-right: 10px; */
+    flex: 1 1;
+    width: 50%;
+    height: 640px;
+    background-image: url(./images/pia21924-16.jpg);
+    background-position: 50% 50%;
+}
+
+.sub-event {
+    display: flex;
+    flex: 1 1;
+}
+
+.climate {
+    flex: 1 1;
+    height: 300px;
+    width: 50%;
+    background-image: url(./images/mollweide_cycle.jpg);
+}
+
+.news {
+    flex: 1 1;
+    width: 50%;
+    height: 300px;
+    background-color: #4d7197;
+}
+
+
+
+
 
