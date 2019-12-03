@@ -66,7 +66,7 @@ a {
 }
 
 ul > li:last-child::after {
-    contain: "";
+    content: "";
     border: none;
 }
 
@@ -123,8 +123,6 @@ ul > li:last-child::after {
 
 .sub-event {
     display: flex;
-    flex-shrink: 1;
-    flex: 1 1;
     flex-wrap: wrap;
 }
 
