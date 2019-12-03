@@ -3,6 +3,7 @@ body {
     width: 95%;
     height: 1490px;
     margin: auto;
+    font-family: 'Sunflower', sans-serif;
 }
 
 a {
@@ -138,7 +139,7 @@ ul > li:last-child::after {
 .news {
     width: 50%;
     height: 50%;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     background-color: #4d7197;
 }
