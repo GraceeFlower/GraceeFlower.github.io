@@ -117,8 +117,8 @@ ul > li:last-child::after {
     flex: 1 1;
     width: 50%;
     height: 640px;
-    background-image: url(./images/pia21924-16.jpg);
-    background-position: 50% 50%;
+    background: url('./images/pia21924-16.jpg') 50% 50% no-repeat;
+    background-size: cover;
 }
 
 .sub-event {
@@ -131,7 +131,8 @@ ul > li:last-child::after {
     margin-right: 10px;
     width: calc(50% - 10px);
     height: 50%;
-    background-image: url(./images/mollweide_cycle.jpg);
+    background: url('./images/mollweide_cycle.jpg') 50% 50% no-repeat;
+    background-size: cover;
 }
 
 .news {
@@ -171,7 +172,7 @@ ul > li:last-child::after {
     margin-top: 10px;
     width: 100%;
     height: calc(50% - 10px);
-    background-image: url(./images/s69-39961.jpg);
+    background-image: url('./images/s69-39961.jpg');
     background-size: cover;
 }
 
@@ -208,7 +209,7 @@ ul > li:last-child::after {
     position: relative;
     width: 24%;
     height: 100%;
-    background-image: url(./images/ssc2017-14a1.jpg);
+    background-image: url('./images/ssc2017-14a1.jpg');
     background-position: 50% 50%;
 }
 
@@ -216,7 +217,7 @@ ul > li:last-child::after {
     position: relative;
     width: 49%;
     height: 100%;
-    background-image: url(./images/pia22556-16.gif);
+    background: url('./images/pia22556-16.gif') 50% 50% no-repeat;
 }
 
 .video {
@@ -236,11 +237,11 @@ ul > li:last-child::after {
 }
 
 .statement {
-    background: #212121 url(./images/nasa_logo.png) no-repeat 50% 50%;
+    background: #212121 url('./images/nasa_logo.png') 50% 50% no-repeat;
 }
 
 .juno {
-    background-image: url(./images/io-home.gif);
+    background: url('./images/io-home.gif') 50% 50% no-repeat;
 }
 
 .juno > i , .merger > i{
@@ -250,11 +251,13 @@ ul > li:last-child::after {
 }
 
 .cassini {
-    background-image: url(./images/cassini20170809.jpg);
+    background: url('./images/cassini20170809.jpg') 50% 50% no-repeat;
+    background-size: cover;
 }
 
 .telescope {
-    background-image: url(./images/fermiicecube_as.jpg);
+    background: url('./images/fermiicecube_as.jpg') 50% 50% no-repeat;
+    background-size: cover;
 }
 
 .story-btn {
