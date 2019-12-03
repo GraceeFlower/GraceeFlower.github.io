@@ -245,9 +245,10 @@ ul > li:last-child::after {
     background-image: url(./images/io-home.gif);
 }
 
-.juno > i {
+.juno > i , .merger > i{
     position: absolute;
-    right: 0;
+    top: 8px;
+    right: 8px;
 }
 
 .cassini {
