@@ -19,6 +19,7 @@ a {
     width: 95%;
     justify-content: space-around;
     background: url('./images/starfield-banner.jpg ');
+    z-index: 99;
 }
 
 .header .logo {
@@ -101,16 +102,16 @@ ul > li:last-child::after {
 }
 
 .content {
-    margin-top: 110px;
+    margin-top: 130px;
 }
 
 .content .events {
     display: flex;
     height: 640px;
-    background: #fff;
 }  
 
 .main-event {
+    position: relative;
     margin-right: 10px;
     flex: 1 1;
     width: 50%;
@@ -121,33 +122,55 @@ ul > li:last-child::after {
 
 .sub-event {
     display: flex;
+    flex-shrink: 1;
     flex: 1 1;
     flex-wrap: wrap;
 }
 
 .climate {
+    position: relative;
     margin-right: 10px;
-    flex: 1 1 2;
     width: calc(50% - 10px);
     height: 50%;
     background-image: url(./images/mollweide_cycle.jpg);
 }
 
 .news {
-    flex: 1 1 2;
     width: 50%;
     height: 50%;
     background-color: #4d7197;
 }
 
 .launch {
+    position: relative;
     margin-top: 10px;
-    flex: 1 1 2;
     width: 100%;
     height: calc(50% - 10px);
     background-image: url(./images/s69-39961.jpg);
     background-size: cover;
 }
+
+.events .figure {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.events .title {
+    display: inline-block;
+    padding: 5px 13px;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgba(90, 113, 150, .8);
+}
+
+.events .detail {
+    padding: 4px 0 4px 12px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, .8);
+}
+
 
 
 
