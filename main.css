@@ -164,7 +164,7 @@ ul > li:last-child::after {
 }
 
 .news-footer span {
-    padding: 0 20px;
+    padding: 0 4%;
 }
 
 .launch {
@@ -224,6 +224,7 @@ ul > li:last-child::after {
 .video {
     width: 24%;
     height: 100%;
+    background-color: #010217;
 }
 
 .video > video {
@@ -298,14 +299,5 @@ ul > li:last-child::after {
 .contact > a {
     font-weight: 600;
     color: #4b5b7c;
-    margin-left: 20px;
+    margin-left: 15px;
 }
-
-
-
-
-
-
-
-
-
