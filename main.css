@@ -206,6 +206,7 @@ ul > li:last-child::after {
 }
 
 .merger {
+    position: relative;
     width: 24%;
     height: 100%;
     background-image: url(./images/ssc2017-14a1.jpg);
@@ -213,6 +214,7 @@ ul > li:last-child::after {
 }
 
 .asteriods {
+    position: relative;
     width: 50%;
     height: 100%;
     background-image: url(./images/pia22556-16.gif);
@@ -221,7 +223,6 @@ ul > li:last-child::after {
 .video {
     width: 24%;
     height: 100%;
-    background-color: rosybrown;
 }
 
 
