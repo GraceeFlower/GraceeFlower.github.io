@@ -180,6 +180,7 @@ ul > li:last-child::after {
     position: absolute;
     bottom: 0;
     width: 100%;
+    /* letter-spacing: -.5px; */
 }
 
 .title {
@@ -197,7 +198,7 @@ ul > li:last-child::after {
     background-color: rgba(255, 255, 255, .7);
 }
 
-.stars {
+.stars, .nasa-info {
     display: flex;
     justify-content: space-between;
     margin-top: 13px;
@@ -215,7 +216,7 @@ ul > li:last-child::after {
 
 .asteriods {
     position: relative;
-    width: 50%;
+    width: 49%;
     height: 100%;
     background-image: url(./images/pia22556-16.gif);
 }
@@ -223,6 +224,32 @@ ul > li:last-child::after {
 .video {
     width: 24%;
     height: 100%;
+}
+
+.video > video {
+    outline: none;
+}
+
+.nasa-info .info {
+    position: relative;
+    width: 24%;
+    height: 100%;
+}
+
+.statement {
+    background: #212121 url(./images/nasa_logo.png) no-repeat 50% 50%;
+}
+
+.juno {
+    background-image: url(./images/io-home.gif);
+}
+
+.cassini {
+    background-image: url(./images/cassini20170809.jpg);
+}
+
+.telescope {
+    background-image: url(./images/fermiicecube_as.jpg);
 }
 
 
