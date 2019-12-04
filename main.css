@@ -114,15 +114,16 @@ ul > li:last-child::after {
 .main-event {
     position: relative;
     margin-right: 10px;
-    flex: 1 1;
+    flex: 1;
     width: 50%;
-    height: 640px;
+    height: 100%;
     background: url('./images/pia21924-16.jpg') 50% 50% no-repeat;
     background-size: cover;
 }
 
 .sub-event {
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
 }
 
@@ -157,10 +158,6 @@ ul > li:last-child::after {
 
 .news-content p {
     margin-top: 0;
-}
-
-.news-footer {
-    height: 5%;
 }
 
 .news-footer span {
@@ -302,4 +299,17 @@ ul > li:last-child::after {
     font-weight: 600;
     color: #4b5b7c;
     margin-left: 15px;
+}
+
+@media (max-width: 959px) {
+    .header {
+        height: 160px;
+    }
+
+    .content {
+        margin-top: 180px;
+    }
+    .news-content {
+        height: calc(79% - 7px);
+    }
 }
