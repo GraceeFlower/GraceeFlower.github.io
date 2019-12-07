@@ -1,9 +1,9 @@
 body {
-    background-color: black;
     width: 95%;
     height: 1490px;
     margin: auto;
     font-family: 'Sunflower', sans-serif;
+    background-color: black;
 }
 
 a {
@@ -29,8 +29,8 @@ a {
 }
 
 .header ul {
-    list-style: none;
     padding: 10px;
+    list-style: none;
 }
 
 .header .nav {
@@ -60,9 +60,9 @@ a {
     content: "";
     position: absolute;
     height: 42px;
-    border: 1px solid #434343;
     top: -8px;
     right: -10px;
+    border: 1px solid #434343;
 }
 
 ul > li:last-child::after {
@@ -74,9 +74,9 @@ ul > li:last-child::after {
     content: "";
     position: absolute;
     height: 20px;
-    border: 1px solid #6a6a6a;
     top: -2px;
     right: -10px;
+    border: 1px solid #6a6a6a;
 }
 
 .search {
@@ -89,8 +89,8 @@ ul > li:last-child::after {
     width: 128px;
     height: 22px;
     padding: 8px;
-    background-color: #333;
     border: none;
+    background-color: #333;
 }
 
 .header .icon {
@@ -196,10 +196,10 @@ ul > li:last-child::after {
 
 .stars, .nasa-info {
     display: flex;
-    justify-content: space-between;
     margin-top: 13px;
     width: 100%;
     height: 300px;
+    justify-content: space-between;
 }
 
 .merger {
@@ -296,9 +296,9 @@ ul > li:last-child::after {
 }
 
 .contact > a {
+    margin-left: 15px;
     font-weight: 600;
     color: #4b5b7c;
-    margin-left: 15px;
 }
 
 @media (max-width: 959px) {
@@ -309,6 +309,7 @@ ul > li:last-child::after {
     .content {
         margin-top: 180px;
     }
+
     .news-content {
         height: calc(79% - 7px);
     }
